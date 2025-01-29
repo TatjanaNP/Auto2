@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 
 
-class ProjektasSchema(BaseModel):
+class AutomobilisSchema(BaseModel):
     id: int
     gamintojas: str
     modelis: str

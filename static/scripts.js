@@ -1,6 +1,6 @@
 // JAVASCRIPT KODAS DINAMIŠKAI GENERUOTI LENTELĘ SU DUOMENIMIS
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('http://127.0.0.1:5000/api2/projektai')
+    fetch('http://127.0.0.1:5002/api2/automobiliai')
         .then(response => response.json())
         .then(data => {
             const tbody = document.getElementById('automobiliai-body');
